@@ -1,0 +1,10 @@
+Semester-Lerncampus – GitHub Pages
+
+Öffentliche Webversion ohne originale Vorlesungs-PDFs, Übungsblätter, Tabellen-PDFs und XLSM-Dateien.
+Links auf diese Originalunterlagen sind als nicht anklickbare Hinweise gekennzeichnet.
+
+WICHTIG: Lernfortschritt ist browser-/ursprungsgebunden (localStorage).
+Vor dem Wechsel aus der alten Version dort ein Backup exportieren, dann auf der neuen Webadresse importieren.
+
+Upload: ZIP entpacken, den INHALT des Ordners in GitHub hochladen (index.html im Repo-Hauptverzeichnis).
+GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).

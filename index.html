@@ -1,0 +1,12 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Semester-Lerncampus</title><link rel="stylesheet" href="assets/css/campus.css"><meta name="theme-color" content="#15283e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lerncampus"><link rel="apple-touch-icon" href="./assets/icons/icon-192.png"><link rel="manifest" href="./manifest.webmanifest"></head>
+<body><header style="--a:#202a44;--b:#4b5f91"><div class="wrap"><h1>🎓 Semester-Lerncampus</h1><div class="sub">Fünf Module · ein gemeinsames Lernsystem</div></div></header>
+<main><section class="hero"><div class="section-title"><div><h2>Semesterübersicht</h2><p class="muted">Dein Lernstand über alle Module.</p></div><div class="toolbar"><button class="btn" id="backupExport">Backup exportieren</button><label class="btn">Backup importieren<input id="backupImport" type="file" accept=".json" hidden></label></div></div><div id="semesterStats" class="stats"></div></section>
+<section class="hero module-section"><div class="module-intro"><h2>Deine Lernwelt</h2><p class="muted">Fünf Module, ein Semester. Wähle deinen nächsten Lernbereich.</p></div>
+<div class="module-orbit" aria-label="Deine fünf Module">
+  <div class="orbit-ring orbit-ring-outer" aria-hidden="true"></div>
+  <div class="orbit-ring orbit-ring-inner" aria-hidden="true"></div>
+  <div class="orbit-center" aria-hidden="true"><span>🎓</span><strong>MEIN<br>SEMESTER</strong><small>5 MODULE</small></div>
+  <div id="modules" class="orbit-modules"></div>
+</div></section></main>
+<footer>Semester-Lerncampus v4.0 · Mobile App</footer><script src="assets/js/campus.js"></script><script>if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost')){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(console.warn));}</script><script>function connectionStatus(){document.getElementById('connectionState').textContent=navigator.onLine?'🟢 Online':'🟠 Offline – lokale Lerninhalte verfügbar';}window.addEventListener('online',connectionStatus);window.addEventListener('offline',connectionStatus);connectionStatus();</script></body></html>
