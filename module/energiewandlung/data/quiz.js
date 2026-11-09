@@ -502,5 +502,175 @@ window.MODULE_DATA.quiz=[
     ],
     "correct": 1,
     "explanation": "Folie 31."
+  },
+  {
+    "id": "ews-v04-201",
+    "lecture": "VL 04",
+    "chapter": "Clausius-Rankine",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Welche Komponente erhöht den Druck des flüssigen Kondensats?",
+    "options": [
+      "Dampfturbine",
+      "Speisepumpe",
+      "Kondensator"
+    ],
+    "correct": 1,
+    "explanation": "Die Speisepumpe hebt das Druckniveau vor dem Dampferzeuger. [V04 F. 5]"
+  },
+  {
+    "id": "ews-v04-202",
+    "lecture": "VL 04",
+    "chapter": "Wirkungsgrad",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Welche Maßnahme verringert gezielt die Endnässe nach der Turbine?",
+    "options": [
+      "Zwischenüberhitzung",
+      "Höhere Endnässe zulassen",
+      "Kondensator entfernen"
+    ],
+    "correct": 0,
+    "explanation": "Zwischenüberhitzung wirkt gegen Endnässe und erhöht die mittlere Temperatur der Wärmezufuhr. [V04 F. 50]"
+  },
+  {
+    "id": "ews-v04-203",
+    "lecture": "VL 04",
+    "chapter": "Sonderprozesse",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Wo sind ORC-Prozesse besonders sinnvoll?",
+    "options": [
+      "Bei niedrig temperierten Wärmequellen",
+      "Nur bei extrem heißen Brennkammern",
+      "Nur bei Gasturbinen"
+    ],
+    "correct": 0,
+    "explanation": "Die Vorlesung nennt etwa Geothermie und organische Arbeitsmedien. [V04 F. 69]"
+  },
+  {
+    "id": "ews-v04-204",
+    "lecture": "VL 04",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Welche zwei negativen Effekte verursacht zu hohe Endnässe?",
+    "options": [
+      "Mehr Brennstoff und bessere Kühlung",
+      "Wirkungsgradverluste und Schaufelerosion",
+      "Höherer Frischdampfdruck und trockenerer Dampf"
+    ],
+    "correct": 1,
+    "explanation": "Tropfen verursachen Verluste und Erosion. [V04 F. 47]"
+  },
+  {
+    "id": "ews-v05-201",
+    "lecture": "VL 05",
+    "chapter": "Wärmeübertrager",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Welche Formel gehört zur Wärmeübertrager-Auslegung?",
+    "options": [
+      "Q̇ = U · A · ΔT_ln",
+      "Q̇ = U / A",
+      "Q̇ = A / ΔT_ln"
+    ],
+    "correct": 0,
+    "explanation": "Wärmedurchgangskoeffizient mal Fläche mal logarithmische Temperaturdifferenz. [V05 F. 15]"
+  },
+  {
+    "id": "ews-v05-202",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Wozu dient ein Abhitzedampferzeuger im GuD?",
+    "options": [
+      "Gasturbinenabgas zur Dampferzeugung nutzen",
+      "Brennstoff chemisch speichern",
+      "Kondensator vollständig ersetzen"
+    ],
+    "correct": 0,
+    "explanation": "Der HRSG koppelt Gasturbinenabgas mit dem Dampfkraftprozess. [V05 F. 17]"
+  },
+  {
+    "id": "ews-v05-203",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Bei 600 MW Gesamtleistung und GT:DT ≈ 2:1 entfallen näherungsweise wie viel MW auf die GT?",
+    "options": [
+      "200 MW",
+      "300 MW",
+      "400 MW"
+    ],
+    "correct": 2,
+    "explanation": "600 MW werden in drei Teile zerlegt; zwei Teile entsprechen 400 MW GT-Leistung. [V05 F. 17; Übung 5, A1]"
+  },
+  {
+    "id": "ews-v06-201",
+    "lecture": "VL 06",
+    "chapter": "Pinch und Grädigkeit",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Was macht ein T-Q̇-Diagramm bei einem Wärmeübertrager sichtbar?",
+    "options": [
+      "Temperaturabstände entlang der Wärmeübertragung",
+      "Nur den elektrischen Strom",
+      "Nur die Druckverluste"
+    ],
+    "correct": 0,
+    "explanation": "Es visualisiert thermische Kopplung und enge Temperaturdifferenzen. [V06 F. 3–5]"
+  },
+  {
+    "id": "ews-v06-202",
+    "lecture": "VL 06",
+    "chapter": "Kondensator",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Wie groß ist in Übung 6 die Kühlwasser-Aufwärmspanne von 15 auf 23 °C?",
+    "options": [
+      "3,5 K",
+      "8 K",
+      "38 K"
+    ],
+    "correct": 1,
+    "explanation": "23 − 15 = 8 K. [Übung 6, A1a]"
+  },
+  {
+    "id": "ews-v06-203",
+    "lecture": "VL 06",
+    "chapter": "Wasser-Dampf-Kreisprozess",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "q": "Welcher ideale Zusammenhang gilt über ein Drosselventil?",
+    "options": [
+      "s₂ = 0",
+      "p₂ = p₁",
+      "h₂ ≈ h₁"
+    ],
+    "correct": 2,
+    "explanation": "Bei idealer Drosselung bleibt die spezifische Enthalpie konstant. [V06 F. 3, 11]"
   }
 ];
