@@ -106,5 +106,175 @@ window.MODULE_DATA.quiz=[
     ],
     "correct": 0,
     "explanation": "Folie 22 nennt Massen-, Energie- und Klimabilanz."
+  },
+  {
+    "id": "bioprozesstechnik-v02-201",
+    "lecture": "VL 02",
+    "chapter": "Anaerobe Vergärung",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Welche Stufe folgt auf die Acidogenese?",
+    "options": [
+      "Acetogenese",
+      "Methanogenese",
+      "Hydrolyse"
+    ],
+    "correct": 0,
+    "explanation": "Reihenfolge: Hydrolyse → Acidogenese → Acetogenese → Methanogenese. [VL 02, F. 3]"
+  },
+  {
+    "id": "bioprozesstechnik-v02-202",
+    "lecture": "VL 02",
+    "chapter": "Verfahrenswahl",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Was beschreibt die Unterscheidung mesophil/thermophil?",
+    "options": [
+      "Die Beschickungsart",
+      "Das Temperaturniveau der Vergärung",
+      "Die Anzahl der Fermenter"
+    ],
+    "correct": 1,
+    "explanation": "Temperaturoptima liegen laut Vorlesung etwa bei 35 °C bzw. 55 °C. [VL 02, F. 11–12]"
+  },
+  {
+    "id": "bioprozesstechnik-v03-201",
+    "lecture": "VL 03",
+    "chapter": "Fermenterauslegung",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Ein Reaktor hat 600 m³, der Zulauf beträgt 30 m³/d. Wie groß ist die HRT?",
+    "options": [
+      "10 d",
+      "20 d",
+      "30 d"
+    ],
+    "correct": 1,
+    "explanation": "HRT = 600 / 30 = 20 Tage. [Formel aus VL 03, F. 30]"
+  },
+  {
+    "id": "bioprozesstechnik-v03-202",
+    "lecture": "VL 03",
+    "chapter": "Biokinetik",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Was bedeutet Auswaschung im kontinuierlichen Bioreaktor?",
+    "options": [
+      "Zellen werden schneller abgeführt als sie nachwachsen",
+      "Nur die Asche wird entfernt",
+      "Der pH-Wert wird stets neutral"
+    ],
+    "correct": 0,
+    "explanation": "Bei zu hoher Verdünnungsrate übersteigt der Abtransport das Wachstum. [VL 03, F. 28]"
+  },
+  {
+    "id": "bioprozesstechnik-v03-203",
+    "lecture": "VL 03",
+    "chapter": "Biokinetik",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Was erklärt die Monod-Kinetik?",
+    "options": [
+      "Wachstumsrate in Abhängigkeit von der Substratkonzentration",
+      "Anlagenkosten in Abhängigkeit vom Strompreis",
+      "Heizwert in Abhängigkeit von der Schütthöhe"
+    ],
+    "correct": 0,
+    "explanation": "Monod stellt den Zusammenhang zwischen Substratkonzentration und spezifischer Wachstumsrate dar. [VL 03, F. 24]"
+  },
+  {
+    "id": "bioprozesstechnik-v04-201",
+    "lecture": "VL 04",
+    "chapter": "Bilanzierung",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Was gehört zur Festlegung einer aussagekräftigen Stoffbilanz?",
+    "options": [
+      "Nur der Eingangsstrom",
+      "Bilanzraum, Zeitraum, Ein- und Ausgänge",
+      "Nur die elektrische Leistung"
+    ],
+    "correct": 1,
+    "explanation": "Ohne klare Bilanzgrenze und Zeitbasis sind Stoffströme nicht vergleichbar. [VL 04, F. 21–24]"
+  },
+  {
+    "id": "bioprozesstechnik-v04-202",
+    "lecture": "VL 04",
+    "chapter": "Stoffströme",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Woraus setzt sich die Trockenmasse zusammen?",
+    "options": [
+      "Nur aus Wasser",
+      "Aus oTR und mTR",
+      "Nur aus Methan"
+    ],
+    "correct": 1,
+    "explanation": "Der TR umfasst organischen und mineralischen Anteil. [VL 04, F. 25–27]"
+  },
+  {
+    "id": "bioprozesstechnik-v05-201",
+    "lecture": "VL 05",
+    "chapter": "Energie",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Wie viel Energie enthält 1 Nm³ reines Methan bei 35.900 kJ/Nm³?",
+    "options": [
+      "Etwa 10 kWh",
+      "Etwa 1 kWh",
+      "Etwa 100 kWh"
+    ],
+    "correct": 0,
+    "explanation": "35.900 / 3.600 ≈ 9,97 kWh. [VL 05, F. 24]"
+  },
+  {
+    "id": "bioprozesstechnik-v05-202",
+    "lecture": "VL 05",
+    "chapter": "Anlagenbilanz",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Wie berechnest du kWh/a aus kW und Betriebsstunden?",
+    "options": [
+      "kW / Stunden",
+      "kW × Stunden",
+      "kW + Stunden"
+    ],
+    "correct": 1,
+    "explanation": "Leistung × Zeit = Energie; bei mehreren Aggregaten auch Anzahl berücksichtigen. [Excel-Vorlage, Zeilen 65–82]"
+  },
+  {
+    "id": "bioprozesstechnik-v06-201",
+    "lecture": "VL 06",
+    "chapter": "Machbarkeit",
+    "tags": [
+      "Quiz"
+    ],
+    "difficulty": "mittel",
+    "q": "Welche Größe fehlt, wenn nur die Jahresmenge, Schütthöhe und Dichte für einen Abfallbunker vorliegen?",
+    "options": [
+      "Geplante Lagerdauer bzw. Spitzenbelegung",
+      "Methan-Heizwert",
+      "Temperatur der Nachrotte"
+    ],
+    "correct": 0,
+    "explanation": "Die zu lagernde Menge muss aus Lieferprofil und Lagerdauer abgeleitet werden. [VL 06, F. 8–9]"
   }
 ];
