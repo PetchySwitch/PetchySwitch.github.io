@@ -1,0 +1,83 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#173344"><title>Wirtschaftsrecht · Falltraining</title><link rel="stylesheet" href="../../assets/css/campus.css"><link rel="stylesheet" href="../../assets/css/design-system.css">
+<style>
+.case-header{background:linear-gradient(115deg,#173344,#225b61);color:white;padding:25px 20px}
+.case-header .wrap{max-width:980px}
+.case-header a{color:#bcece4}
+.case-header h1{font-size:clamp(1.7rem,4vw,2.5rem);margin:10px 0 4px}
+.case-header p{color:#e1efec;margin:0}
+.case-main{max-width:980px;margin:24px auto;padding:0 18px 55px}
+.start{background:#fff;padding:20px;border:1px solid #dce5e9;border-radius:18px;margin-bottom:20px}
+.start p{margin:9px 0;color:#485f69}
+.status{margin-top:15px;font-weight:700;color:#165e61}
+.meter{height:11px;background:#dbe9e8;border-radius:20px;overflow:hidden;margin-top:7px}
+.meter>span{display:block;height:100%;width:0;background:#268a7f;transition:width .2s}
+.case{background:#fff;border:1px solid #dce5e9;border-radius:18px;padding:clamp(17px,3vw,26px);margin:20px 0;box-shadow:0 6px 22px #1733440b}
+.case-top{display:flex;justify-content:space-between;gap:12px}
+.case h2{margin:5px 0 13px;color:#173344;font-size:1.35rem}
+.eyebrow{font-size:.73rem;color:#176c72;font-weight:800;letter-spacing:.05em}
+.time{white-space:nowrap;color:#657984;font-size:.84rem}
+.facts{font-size:1.02rem;line-height:1.66;padding:15px;background:#f4f8f8;border-radius:12px;margin:0 0 19px}
+.case label:not(.done){display:block;font-weight:700;margin-bottom:7px}
+.case label small{font-weight:400;color:#73808a}
+.case textarea{display:block;width:100%;font:inherit;padding:13px;border:1px solid #bdced1;border-radius:10px;background:white;color:#173344;line-height:1.55;resize:vertical;min-height:120px}
+.case details{margin-top:14px;padding:13px 15px;border:1px solid #dce5e9;border-radius:12px;background:#fafcfc}
+.case summary{cursor:pointer;font-weight:700;color:#176c72}
+.case details p{margin:12px 0 0}
+.solution{white-space:pre-line;line-height:1.62;color:#263c44}
+.solution p{margin:8px 0}
+.done{display:flex;align-items:center;gap:9px;margin-top:18px;color:#17636a;font-weight:750}
+.done input{width:20px;height:20px;accent-color:#176c72}
+@media(max-width:600px){.case-main{padding:0 12px}.case-header{padding:22px 16px}}
+</style></head><body><header class="case-header"><div class="wrap"><a href="index.html">← Wirtschaftsrecht</a><h1>Juristische Fälle lösen</h1><p>Erst selbst prüfen, dann vergleichen. Fünf kurze Übungsfälle nach den aktuellen Kursthemen.</p></div></header>
+<main class="case-main"><section class="start"><h2>Deine Übungsrunde</h2><p>Nutze den vereinfachten Prüfungsstil: <b>Obersatz → Voraussetzungen → Definition → Subsumtion → Rechtsfolge → Ergebnis</b>. Notiere mindestens einen vollständigen Gedankengang, bevor du die Musterstruktur öffnest.</p><p>Die Fälle sind eigenständig formulierte Lernbeispiele auf Basis der Vorlesungsthemen und keine Kopien der Original-Fallblätter. Bei gesetzlichen Fragen hat der Kursgesetzestext Vorrang.</p><div class="status" id="status">0 von 5 Fällen bearbeitet</div><div class="meter" aria-hidden="true"><span id="bar"></span></div></section><article class="case" id="fall-1">
+ <div class="case-top"><div><span class="eyebrow">Vertragsschluss · § 433 BGB</span><h2>1. Regalangebot oder Kaufvertrag?</h2></div><span class="time">8 Min.</span></div>
+ <p class="facts">Im Laden sieht T einen Werkzeugkoffer mit Preisschild 85 €. T legt ihn aufs Kassenband und erklärt, er wolle ihn für 85 € kaufen. Verkäufer V lehnt ab, weil das letzte Exemplar für einen Stammkunden zurückgelegt sei. Kann T Übergabe verlangen?</p>
+ <label for="note-0">Dein Lösungsschema <small>(nur in diesem Browser gespeichert)</small></label>
+ <textarea id="note-0" data-notes="0" rows="5" placeholder="Obersatz: Wer will was von wem woraus?&#10;Voraussetzungen: …&#10;Subsumtion: …&#10;Ergebnis: …"></textarea>
+ <details><summary>Denkanstoß anzeigen</summary><p>Wer will was von wem woraus? Prüfe Angebot und Annahme getrennt. Ist das Preisschild schon ein bindendes Angebot?</p></details>
+ <details><summary>Musterstruktur vergleichen</summary><div class="solution">Obersatz: T könnte gegen V aus § 433 Abs. 1 S. 1 BGB einen Anspruch auf Übergabe und Eigentumsverschaffung haben.<p>Voraussetzung: wirksamer Kaufvertrag durch Angebot und Annahme.<p>Subsumtion: Das Preisschild ist in der Regel nur eine invitatio ad offerendum. T macht beim Bezahlenwollen ein Angebot. V nimmt es nicht an, sondern lehnt ausdrücklich ab.<p>Ergebnis: Mangels Kaufvertrag besteht der Anspruch nicht.<p>Hinweis: Übungsfall vereinfacht, orientiert am Thema aus Übungsblatt 5 mit Lösung.</div></details>
+ <label class="done"><input type="checkbox" data-done="0"> Diesen Fall selbst bearbeitet</label>
+ </article>
+<article class="case" id="fall-2">
+ <div class="case-top"><div><span class="eyebrow">Verjährung · §§ 195, 199, 214 BGB</span><h2>2. Drei Jahre – wann ist Schluss?</h2></div><span class="time">8 Min.</span></div>
+ <p class="facts">A hat gegen B seit dem 18. April 2023 einen fälligen Zahlungsanspruch. A kennt seit diesem Tag den Sachverhalt und B als Schuldner. Weder Hemmung noch Neubeginn liegen vor. Kann B im Februar 2027 die Zahlung wegen Verjährung verweigern?</p>
+ <label for="note-1">Dein Lösungsschema <small>(nur in diesem Browser gespeichert)</small></label>
+ <textarea id="note-1" data-notes="1" rows="5" placeholder="Obersatz: Wer will was von wem woraus?&#10;Voraussetzungen: …&#10;Subsumtion: …&#10;Ergebnis: …"></textarea>
+ <details><summary>Denkanstoß anzeigen</summary><p>Prüfe die regelmäßige Verjährung, den Fristbeginn am Jahresende und die Einrede. Schreibe ein konkretes Datum auf.</p></details>
+ <details><summary>Musterstruktur vergleichen</summary><div class="solution">Obersatz: B könnte gemäß § 214 Abs. 1 BGB berechtigt sein, die Zahlung zu verweigern.<p>Voraussetzungen: Anspruch unterliegt Regelverjährung nach § 195 BGB (drei Jahre). Beginn gemäß § 199 Abs. 1 BGB mit Schluss des Jahres 2023 bei Entstehung und Kenntnis.<p>Subsumtion: Frist läuft vom 01.01.2024 bis zum Ablauf des 31.12.2026. Hemmung/Neubeginn sind ausgeschlossen.<p>Ergebnis: Im Februar 2027 kann B die Einrede erheben. Der Anspruch erlischt durch die Verjährung nicht.<p>Hinweis: Die Fallangaben sind bewusst vereinfacht; reale Sonderfristen und Hemmungstatbestände sind hier ausgeklammert.</div></details>
+ <label class="done"><input type="checkbox" data-done="1"> Diesen Fall selbst bearbeitet</label>
+ </article>
+<article class="case" id="fall-3">
+ <div class="case-top"><div><span class="eyebrow">Anfechtung · §§ 119, 121, 142 BGB</span><h2>3. Falsche Zahl in der Bestellung</h2></div><span class="time">10 Min.</span></div>
+ <p class="facts">K möchte eine Maschine für 2.100 € anbieten. Beim Schreiben vertippt sich K und nennt 1.200 €. V nimmt das Angebot an. K bemerkt den Fehler am selben Tag und erklärt V umgehend, er fechte seine Erklärung wegen des Tippfehlers an. Was ist zu prüfen?</p>
+ <label for="note-2">Dein Lösungsschema <small>(nur in diesem Browser gespeichert)</small></label>
+ <textarea id="note-2" data-notes="2" rows="5" placeholder="Obersatz: Wer will was von wem woraus?&#10;Voraussetzungen: …&#10;Subsumtion: …&#10;Ergebnis: …"></textarea>
+ <details><summary>Denkanstoß anzeigen</summary><p>Gliedere Anfechtungsgrund, Anfechtungserklärung, Anfechtungsgegner, Anfechtungsfrist und Rechtsfolge. Beachte eine mögliche Ersatzpflicht.</p></details>
+ <details><summary>Musterstruktur vergleichen</summary><div class="solution">Obersatz: Das zunächst geschlossene Rechtsgeschäft könnte durch wirksame Anfechtung gemäß §§ 119 ff. BGB rückwirkend nichtig sein.<p>Anfechtungsgrund: K wollte 2.100 € erklären, hat sich jedoch vertippt (Erklärungsirrtum, § 119 Abs. 1 BGB).<p>Anfechtungserklärung: K teilt V unverzüglich mit, dass er wegen des Irrtums nicht an der Erklärung festhalten will (§ 143 BGB; Frist § 121 BGB).<p>Ergebnis: Bei Vorliegen aller Voraussetzungen gilt das Rechtsgeschäft nach § 142 Abs. 1 BGB als von Anfang an nichtig.<p>Ergänzung: Mögliche Ersatzpflicht für Vertrauensschaden nach § 122 BGB gesondert prüfen.<p>Hinweis: Lernfall; Erklärungsfrist und Ersatzpflicht sind in realen Fällen konkret zu prüfen.</div></details>
+ <label class="done"><input type="checkbox" data-done="2"> Diesen Fall selbst bearbeitet</label>
+ </article>
+<article class="case" id="fall-4">
+ <div class="case-top"><div><span class="eyebrow">Stellvertretung · §§ 164, 177 BGB</span><h2>4. Einkauf ohne Vollmacht</h2></div><span class="time">10 Min.</span></div>
+ <p class="facts">M bestellt bei Lieferantin L erkennbar im Namen der Firma F einen industriellen Sensor. M ist dort zwar Mitarbeiter, darf aber ohne vorherige Freigabe keine Verträge schließen. F genehmigt den Vertrag zunächst nicht. Ist F an die Bestellung gebunden?</p>
+ <label for="note-3">Dein Lösungsschema <small>(nur in diesem Browser gespeichert)</small></label>
+ <textarea id="note-3" data-notes="3" rows="5" placeholder="Obersatz: Wer will was von wem woraus?&#10;Voraussetzungen: …&#10;Subsumtion: …&#10;Ergebnis: …"></textarea>
+ <details><summary>Denkanstoß anzeigen</summary><p>Prüfe eigene Erklärung, fremden Namen und Vertretungsmacht. Was gilt, wenn die Vertretungsmacht fehlt?</p></details>
+ <details><summary>Musterstruktur vergleichen</summary><div class="solution">Obersatz: L könnte gegenüber F einen vertraglichen Anspruch aus der Bestellung haben.<p>Voraussetzungen: wirksame Stellvertretung erfordert eigene Willenserklärung, Handeln im fremden Namen und Vertretungsmacht (§ 164 Abs. 1 BGB).<p>Subsumtion: M gibt eine eigene Erklärung im Namen von F ab, besitzt nach dem Sachverhalt jedoch keine entsprechende Vertretungsmacht.<p>Ergebnis: Der Vertrag ist gegenüber F nach § 177 Abs. 1 BGB zunächst von deren Genehmigung abhängig; ohne Genehmigung ist F nicht gebunden.<p>Hinweis: Fragen einer Duldungs-/Anscheinsvollmacht oder der Haftung des M sind nicht Gegenstand dieses vereinfachten Falls.</div></details>
+ <label class="done"><input type="checkbox" data-done="3"> Diesen Fall selbst bearbeitet</label>
+ </article>
+<article class="case" id="fall-5">
+ <div class="case-top"><div><span class="eyebrow">AGB · §§ 305, 305b, 310 BGB</span><h2>5. AGB erst auf der Rechnung</h2></div><span class="time">10 Min.</span></div>
+ <p class="facts">Verkäuferin V verkauft einer Privatperson P einen Staubsauger. Erst mit der Rechnung nach Vertragsschluss überreicht V erstmals ihre AGB. Darin soll für alle Fälle eine zusätzliche Bearbeitungsgebühr von 20 € gelten. P hatte den Bedingungen nicht zugestimmt. Sind die AGB Bestandteil des Kaufvertrags?</p>
+ <label for="note-4">Dein Lösungsschema <small>(nur in diesem Browser gespeichert)</small></label>
+ <textarea id="note-4" data-notes="4" rows="5" placeholder="Obersatz: Wer will was von wem woraus?&#10;Voraussetzungen: …&#10;Subsumtion: …&#10;Ergebnis: …"></textarea>
+ <details><summary>Denkanstoß anzeigen</summary><p>Ist P Verbraucher? Wann wurden die AGB vorgestellt? Prüfe Einbeziehung nach § 305 Abs. 2 BGB, nicht sofort die Inhaltskontrolle.</p></details>
+ <details><summary>Musterstruktur vergleichen</summary><div class="solution">Obersatz: V könnte die zusätzliche Gebühr nur aufgrund einer wirksam vereinbarten Vertragsbedingung fordern.<p>Maßstab: Bei einem Verbrauchervertrag setzt die Einbeziehung nach § 305 Abs. 2 BGB insbesondere Hinweis bei Vertragsschluss, Kenntnisnahmemöglichkeit und Einverständnis voraus.<p>Subsumtion: Die AGB werden erst nach Abschluss des Kaufvertrags überreicht; P hatte vorher keine Kenntnisnahmemöglichkeit und nicht zugestimmt.<p>Ergebnis: Unter den Fallannahmen sind die AGB nicht wirksam einbezogen. Eine Gebühr kann nicht allein daraus gefordert werden.<p>Hinweis: Der Fall dient dem Einbeziehungsschema aus der AGB-Reading-Week. Bei Unternehmerverträgen gelten Besonderheiten gemäß § 310 Abs. 1 BGB.</div></details>
+ <label class="done"><input type="checkbox" data-done="4"> Diesen Fall selbst bearbeitet</label>
+ </article>
+<footer>Deine Antworten bleiben lokal im Browser. Keine Übertragung an GitHub oder einen Server.</footer></main>
+<script>
+(function(){const KEY="campus:wirtschaftsrecht:falltrainer";let s={done:[],notes:{}};try{s={...s,...JSON.parse(localStorage.getItem(KEY)||"{}")}}catch(e){};function save(){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+function sync(){document.querySelectorAll("[data-done]").forEach(x=>x.checked=s.done.includes(Number(x.dataset.done)));document.querySelectorAll("[data-notes]").forEach(x=>x.value=s.notes[x.dataset.notes]||"");document.getElementById("status").textContent=s.done.length+" von 5 Fällen bearbeitet";document.getElementById("bar").style.width=(s.done.length/5*100)+"%"}
+document.querySelectorAll("[data-done]").forEach(x=>x.addEventListener("change",()=>{const n=Number(x.dataset.done);s.done=x.checked?[...new Set([...s.done,n])]:s.done.filter(v=>v!==n);save();sync()}));
+document.querySelectorAll("[data-notes]").forEach(x=>x.addEventListener("input",()=>{s.notes[x.dataset.notes]=x.value;save()}));sync()})();
+</script></body></html>
