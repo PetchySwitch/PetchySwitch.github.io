@@ -502,5 +502,159 @@ window.MODULE_DATA.flashcards=[
     "difficulty": "mittel",
     "front": "Was bedeutet ein T-s-Diagramm für die Auswertung?",
     "back": "Es zeigt Temperatur über spezifischer Entropie und ermöglicht den Vergleich idealer und realer Prozessverläufe."
+  },
+  {
+    "id": "ews-v04-101",
+    "lecture": "VL 04",
+    "chapter": "Clausius-Rankine",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Welche vier Hauptkomponenten hat der einfache Dampfkraftprozess?",
+    "back": "Speisepumpe, Dampferzeuger/Überhitzer, Dampfturbine, Kondensator. [V04 F. 5]"
+  },
+  {
+    "id": "ews-v04-102",
+    "lecture": "VL 04",
+    "chapter": "Wirkungsgrad",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Welche drei Optimierungen nennt VL 04?",
+    "back": "Druck/Temperatur der Frischdampfparameter erhöhen, Zwischenüberhitzung, regenerative Speisewasservorwärmung. [V04 F. 3, 44–59]"
+  },
+  {
+    "id": "ews-v04-103",
+    "lecture": "VL 04",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Warum ist hohe Endnässe problematisch?",
+    "back": "Sie führt zu Wirkungsgradverlusten und Schaufelerosion; ab ca. 10 % Endnässe sind laut Vorlesung aufwendige Maßnahmen nötig. [V04 F. 47]"
+  },
+  {
+    "id": "ews-v04-104",
+    "lecture": "VL 04",
+    "chapter": "Wirkungsgrad",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Welche zwei Ziele verfolgt die Zwischenüberhitzung?",
+    "back": "Die mittlere Temperatur der Wärmezufuhr erhöhen und die Endnässe am Turbinenaustritt senken. [V04 F. 50]"
+  },
+  {
+    "id": "ews-v04-105",
+    "lecture": "VL 04",
+    "chapter": "Sonderprozesse",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Für welche Wärmequellen ist ein ORC geeignet?",
+    "back": "Für Quellen mit vergleichsweise niedrigen Temperaturen, zum Beispiel Geothermie; verwendet organische Arbeitsmedien. [V04 F. 67–69]"
+  },
+  {
+    "id": "ews-v05-101",
+    "lecture": "VL 05",
+    "chapter": "Wärmeübertrager",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Was bedeutet Rekuperator?",
+    "back": "Wärmeübertrager, in dem zwei getrennte Stoffströme über eine wärmedurchlässige Wand Wärme übertragen. [V05 F. 5]"
+  },
+  {
+    "id": "ews-v05-102",
+    "lecture": "VL 05",
+    "chapter": "Wärmeübertrager",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Wie lautet der Ansatz mit U, A und ΔT_ln?",
+    "back": "Q̇ = U · A · ΔT_ln; ΔT_ln ist die logarithmische mittlere Temperaturdifferenz. [V05 F. 15]"
+  },
+  {
+    "id": "ews-v05-103",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Welche Aufgabe erfüllt der HRSG?",
+    "back": "Er nutzt die Wärme aus dem Gasturbinenabgas, um Dampf für den angeschlossenen Dampfkraftprozess zu erzeugen. [V05 F. 17–23]"
+  },
+  {
+    "id": "ews-v05-104",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Wie ist laut Vorlesung die ungefähre Leistungsverteilung in einem GuD-Kraftwerk?",
+    "back": "Elektrische Leistung Gasturbinenanlage zu Dampfturbine ungefähr 2:1. Das ist ein Richtwert, kein allgemeines Gesetz. [V05 F. 17]"
+  },
+  {
+    "id": "ews-v06-101",
+    "lecture": "VL 06",
+    "chapter": "Pinch und Grädigkeit",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Wozu dient das T-Q̇-Diagramm am Abhitzedampferzeuger?",
+    "back": "Es zeigt Temperaturverläufe der heißen und kalten Ströme über die übertragene Wärme und verdeutlicht Engstellen sowie Wärmeübertragungsverluste. [V06 F. 3–5]"
+  },
+  {
+    "id": "ews-v06-102",
+    "lecture": "VL 06",
+    "chapter": "Kondensator",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Welche Temperaturen nennt Übung 6 für das Kühlwasser?",
+    "back": "15 °C am Kondensatoreintritt und 23 °C am Austritt, also 8 K Erwärmung. [Übung 6, Aufgabe 1]"
+  },
+  {
+    "id": "ews-v06-103",
+    "lecture": "VL 06",
+    "chapter": "Wasser-Dampf-Kreisprozess",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Was ändert ein ideales Drosselventil am Dampfzustand?",
+    "back": "Es verursacht einen Druckverlust bei näherungsweise konstanter spezifischer Enthalpie (isenthalpe Drosselung). [V06 F. 3, 11]"
+  },
+  {
+    "id": "ews-v06-104",
+    "lecture": "VL 06",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Warum braucht eine Niederdruckturbine Wellendichtungen?",
+    "back": "Im Unterdruckbereich verhindern sie unerwünschten Lufteintritt; bei HD/MD verhindern Dichtungen Dampfaustritt. [V06 F. 25]"
+  },
+  {
+    "id": "ews-v06-105",
+    "lecture": "VL 06",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung"
+    ],
+    "difficulty": "mittel",
+    "front": "Welche technischen Maßnahmen gegen Tropfenerosion werden genannt?",
+    "back": "Zum Beispiel Härtung der Laufschaufelvorderkante, Tropfenabsaugung in hohlen Leitschaufeln und deren Beheizung. [V06 F. 15]"
   }
 ];
