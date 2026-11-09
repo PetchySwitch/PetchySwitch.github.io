@@ -75,5 +75,68 @@ window.MODULE_DATA.plan=[
     "task": "Erklären, welche Modellannahmen und Stoffdaten die Ergebnisse verändern.",
     "lecture": "VL 03",
     "chapter": "DWSIM und Simulation"
+  },
+  {
+    "id": "ews-plan-v04-a",
+    "when": "Einheit 4A · 25 Min.",
+    "task": "Clausius-Rankine: Speisepumpe, Dampferzeuger, Turbine und Kondensator skizzieren; alle Energieflüsse laut erklären.",
+    "lecture": "VL 04",
+    "chapter": "Dampfkraftprozess"
+  },
+  {
+    "id": "ews-plan-v04-b",
+    "when": "Einheit 4B · 35 Min.",
+    "task": "Übung 4: Dampftafeln bzw. XSteam nutzen; idealen und verlustbehafteten Prozess aus den Vorlagen nachvollziehen.",
+    "lecture": "VL 04",
+    "chapter": "Dampfkraftprozess"
+  },
+  {
+    "id": "ews-plan-v04-c",
+    "when": "Einheit 4C · 25 Min.",
+    "task": "Wirkungsgradsteigerung, Zwischenüberhitzung, Vorwärmung, Endnässe, Kernkraftwerk und ORC frei erklären.",
+    "lecture": "VL 04",
+    "chapter": "Dampfkraftprozess"
+  },
+  {
+    "id": "ews-plan-v05-a",
+    "when": "Einheit 5A · 25 Min.",
+    "task": "Wärmeübertrager im Gleich- und Gegenstrom skizzieren; Q̇ = U·A·ΔT_ln erklären.",
+    "lecture": "VL 05",
+    "chapter": "Wärmeübertrager"
+  },
+  {
+    "id": "ews-plan-v05-b",
+    "when": "Einheit 5B · 35 Min.",
+    "task": "Übung 5: GuD-Schema und Bilanz aus 600 MW, Methan, CO₂ und Volllaststunden selbst rechnen.",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke"
+  },
+  {
+    "id": "ews-plan-v06-a",
+    "when": "Einheit 6A · 25 Min.",
+    "task": "Pinch-Point, Grädigkeit und Endnässe mündlich anhand eines T-Q̇-/T-s-Diagramms erläutern.",
+    "lecture": "VL 06",
+    "chapter": "Pinch und Grädigkeit"
+  },
+  {
+    "id": "ews-plan-v06-b",
+    "when": "Einheit 6B · 35 Min.",
+    "task": "Übung 6: Kondensator-Massen- und Energiebilanz; danach DWSIM-Varianten ideal/real/Zwischenüberhitzung vergleichen.",
+    "lecture": "VL 06",
+    "chapter": "DWSIM"
+  },
+  {
+    "id": "ews-plan-praktikum",
+    "when": "Praktikum · 15 Min.",
+    "task": "Für beide Praktikumstestate Laborgruppe, Versuchstermine, Vorab-Kolloquium sowie Abgabe der Protokolle zwei Wochen nach Versuch prüfen.",
+    "lecture": "VL 06",
+    "chapter": "Praktikum"
+  },
+  {
+    "id": "ews-plan-speicher",
+    "when": "Ab 16.11.2026",
+    "task": "Energiespeicherung beginnt laut Organisation am 16.11.2026; neue Vorlesungs- und Übungsmaterialien nach Erhalt ergänzen, nicht vorwegnehmen.",
+    "lecture": "VL 06",
+    "chapter": "Organisation"
   }
 ];
