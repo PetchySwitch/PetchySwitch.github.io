@@ -6,6 +6,7 @@ const MODS = [
  {id:"wirtschaftsrecht",name:"Wirtschaftsrecht",icon:"⚖️",a:"#7c3f8c",b:"#ad70bb"},
  {id:"energieeffizienz",name:"Energieeffizienz",icon:"🌿",a:"#ca3e73",b:"#ec7aa5"}
 ];
+const EXTRA_PROGRESS_KEYS=["ews-oral-v48-ratings","ews-v50-topic-progress","ews-v51-reife","campus:wirtschaftsrecht:falltrainer"];
 const emptyState=()=>({version:2,readTopics:[],knownCards:[],donePlan:[],quizOK:0,quizN:0,notes:"",lastTab:"dashboard",lastActivity:null});
 function parse(x,f={}){try{return {...f,...JSON.parse(x||"{}")}}catch(e){return f}}
 function stateFor(id){return parse(localStorage.getItem("campus:"+id),emptyState())}
@@ -15,6 +16,8 @@ function stats(id){
 function exportAll(){
  const data={schema:"semester-campus-backup",version:4,exportedAt:new Date().toISOString(),modules:{}};
  MODS.forEach(m=>data.modules[m.id]=stateFor(m.id));
+ data.extras={};
+ EXTRA_PROGRESS_KEYS.forEach(k=>{try{const raw=localStorage.getItem(k);if(raw!==null)data.extras[k]=JSON.parse(raw)}catch(e){}});
  const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="Semester-Lerncampus_Backup.json";a.click();URL.revokeObjectURL(a.href)
 }
@@ -24,6 +27,15 @@ function importAll(file){
    const x=JSON.parse(r.result);
    if(x.schema!=="semester-campus-backup"||!x.modules)throw new Error();
    MODS.forEach(m=>{if(x.modules[m.id])localStorage.setItem("campus:"+m.id,JSON.stringify({...emptyState(),...x.modules[m.id]}))});
+   if(x.extras&&typeof x.extras==="object"&&!Array.isArray(x.extras)){
+     EXTRA_PROGRESS_KEYS.forEach(k=>{
+       if(!Object.prototype.hasOwnProperty.call(x.extras,k))return;
+       const value=x.extras[k];
+       if(value===null||typeof value!=="object")return;
+       const encoded=JSON.stringify(value);
+       if(encoded.length<1000000)localStorage.setItem(k,encoded);
+     });
+   }
    alert("Backup erfolgreich importiert.");renderCampus()
   }catch(e){alert("Dieses Backup ist ungültig oder nicht kompatibel.")}
  };r.readAsText(file)
