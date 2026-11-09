@@ -322,5 +322,185 @@ window.MODULE_DATA.topics=[
     "difficulty": "mittel",
     "title": "Mitgelieferte Simulationsdateien",
     "summary": "Die Folien 27 und 32 listen DWSIM-Beispieldateien (*.dwxmz) für idealen/reale Joule-Prozesse sowie Methan- und Heizölverbrennung auf. Ob die Dateien tatsächlich als PDF-Anhänge enthalten sind, ist gesondert zu prüfen. [Quelle: EWS V03 2026-27.pdf, Folien 27, 32]"
+  },
+  {
+    "id": "ews-v04-01",
+    "lecture": "VL 04",
+    "chapter": "Clausius-Rankine",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 04"
+    ],
+    "difficulty": "mittel",
+    "title": "Vier Bauteile und Prozessschema",
+    "summary": "Der einfache Dampfkraftprozess besteht aus Speisepumpe, Dampferzeuger mit Überhitzer, Dampfturbine und Kondensator. Zeichne das Wärmeschaltbild und kennzeichne zugeführte Wärme, abgeführte Wärme, Turbinenarbeit und Pumpenarbeit. [EWS V04, Folien 5, 13–18; Übung 4, Aufgabe 0a–d]"
+  },
+  {
+    "id": "ews-v04-02",
+    "lecture": "VL 04",
+    "chapter": "Clausius-Rankine",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 04"
+    ],
+    "difficulty": "mittel",
+    "title": "Dampfzustände und thermischer Wirkungsgrad",
+    "summary": "Nutze Dampftafeln oder XSteam für die Zustandsgrößen und berechne den Kreisprozess aus spezifischer Turbinen- und Pumpenarbeit sowie zugeführter Wärme. Übung 4 nutzt Clausius-Rankine- und Dampfkraftprozess-Excel-Vorlagen. [EWS V04, Folien 19–40; Übung 4, Aufgabe 2]"
+  },
+  {
+    "id": "ews-v04-03",
+    "lecture": "VL 04",
+    "chapter": "Wirkungsgrad",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 04"
+    ],
+    "difficulty": "mittel",
+    "title": "Drei Verbesserungen des Dampfkraftprozesses",
+    "summary": "Die Vorlesung nennt höhere Frischdampfparameter (Druck und Temperatur), Zwischenüberhitzung und Speisewasservorwärmung. Begründe jeweils Wirkung und Nachteile. Bei höherem Druck ist die Endnässe der Niederdruckturbine zu berücksichtigen. [EWS V04, Folien 42–59]"
+  },
+  {
+    "id": "ews-v04-04",
+    "lecture": "VL 04",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 04"
+    ],
+    "difficulty": "mittel",
+    "title": "Endnässe und Zwischenüberhitzung",
+    "summary": "Hohe Endnässe verursacht Wirkungsgradverluste und Tropfenerosion. Zwischenüberhitzung nach der Hochdruckturbine erhöht die mittlere Temperatur der Wärmezufuhr und reduziert die Endnässe. [EWS V04, Folien 45–50]"
+  },
+  {
+    "id": "ews-v04-05",
+    "lecture": "VL 04",
+    "chapter": "Sonderprozesse",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 04"
+    ],
+    "difficulty": "mittel",
+    "title": "Kernkraftwerks-Dampfkreislauf und ORC",
+    "summary": "Bei einem Druckwasserreaktor ist ein Primärkreislauf vom Wasser-Dampf-Kreislauf getrennt; Wasserabscheider/Zwischenüberhitzer helfen gegen Endnässe. Ein ORC verwendet organische Arbeitsmedien für Wärmequellen mit niedrigem Temperaturniveau, etwa Geothermie. [EWS V04, Folien 62–69]"
+  },
+  {
+    "id": "ews-v05-01",
+    "lecture": "VL 05",
+    "chapter": "Wärmeübertrager",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 05"
+    ],
+    "difficulty": "mittel",
+    "title": "Wärmeübertrager: Funktion und Strömungsführung",
+    "summary": "Ein Rekuperator überträgt Wärme zwischen getrennten Stoffströmen. Unterscheide Gleichstrom, Gegenstrom und Kreuzstrom; skizziere die Temperaturverläufe. [EWS V05, Folien 5–15; Übung 5, Frage 0a–d]"
+  },
+  {
+    "id": "ews-v05-02",
+    "lecture": "VL 05",
+    "chapter": "Wärmeübertrager",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 05"
+    ],
+    "difficulty": "mittel",
+    "title": "Wärmeleistung und logarithmische Temperaturdifferenz",
+    "summary": "Der Vorlesungsansatz für Wärmeübertrager lautet Q̇ = U · A · ΔT_ln. Die Temperaturkurven werden von lokalen Temperaturdifferenzen und Wärmekapazitätsströmen beeinflusst. [EWS V05, Folie 15; Übung 5, Aufgabe 2]"
+  },
+  {
+    "id": "ews-v05-03",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 05"
+    ],
+    "difficulty": "mittel",
+    "title": "Gas- und Dampfturbine thermisch koppeln",
+    "summary": "Ein GuD-Kraftwerk nutzt das heiße Gasturbinenabgas im Abhitzedampferzeuger (HRSG) für einen nachgeschalteten Dampfkraftprozess. Die Vorlesung nennt als grobe elektrische Leistungsverteilung Gasturbine:Dampfturbine ≈ 2:1. [EWS V05, Folien 17–23; Übung 5, Aufgabe 1]"
+  },
+  {
+    "id": "ews-v05-04",
+    "lecture": "VL 05",
+    "chapter": "GuD-Kraftwerke",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 05"
+    ],
+    "difficulty": "mittel",
+    "title": "Abhitzedampferzeuger und Mehrdruckprozesse",
+    "summary": "Temperaturprofile im T-Q̇-Diagramm helfen, Verluste bei der Wärmeübertragung zu beurteilen. Mehrdruck-HRSG und Zwischenüberhitzung ermöglichen eine bessere Nutzung der Gasturbinenabgaswärme. [EWS V05, Folien 23–35]"
+  },
+  {
+    "id": "ews-v05-05",
+    "lecture": "VL 05",
+    "chapter": "Rechenaufgaben",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 05"
+    ],
+    "difficulty": "mittel",
+    "title": "GuD-Bilanz und CO₂-Emissionen",
+    "summary": "Übung 5 verwendet 600 MW Netto-Gesamtleistung, Methan mit Hi = 50 MJ/kg, eine angenommene Gasturbinen-Effizienz von 40 % und 5.000 Volllaststunden. Berechne näherungsweise Leistungsteilung, Brennstoffstrom, CO₂-Massenstrom und spezifische Emissionen. [Übung 5, Aufgabe 1]"
+  },
+  {
+    "id": "ews-v06-01",
+    "lecture": "VL 06",
+    "chapter": "Pinch und Grädigkeit",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 06"
+    ],
+    "difficulty": "mittel",
+    "title": "Pinch-Point, Grädigkeit und Temperaturprofile",
+    "summary": "Erkläre den engsten Temperaturabstand im Wärmeübertrager (Pinch-Point) und den jeweiligen temperaturseitigen Endabstand (Grädigkeit) anhand eines T-Q̇-Diagramms. Prüfe die genaue Bezugstemperatur des jeweiligen Bauteils. [EWS V06, Folien 3–5; Übung 6, Frage 0a–c]"
+  },
+  {
+    "id": "ews-v06-02",
+    "lecture": "VL 06",
+    "chapter": "Wasser-Dampf-Kreisprozess",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 06"
+    ],
+    "difficulty": "mittel",
+    "title": "DWSIM: Ventile, Turbine und Druckverluste",
+    "summary": "Modelliere den Clausius-Rankine-Kreisprozess zunächst ideal, dann mit Ventil-Druckverlust, Turbinen-/Pumpenwirkungsgraden und Dampferzeuger-Druckverlust; anschließend Zwischenüberhitzung ergänzen. [EWS V06, Folien 6–21; Übung 6, Aufgabe 2a–e]"
+  },
+  {
+    "id": "ews-v06-03",
+    "lecture": "VL 06",
+    "chapter": "Kondensator",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 06"
+    ],
+    "difficulty": "mittel",
+    "title": "Nassdampf und Kühlwasser bilanzieren",
+    "summary": "Übung 6: 100 kg/s Nassdampf mit Dampfgehalt x = 0,92; Kühlwasser 15 °C ein und 23 °C aus; Kondensator-Grädigkeit 3,5 K. Gesucht sind Kondensationswärme, Kondensatordruck und benötigter Kühlwassermassenstrom. [Übung 6, Aufgabe 1]"
+  },
+  {
+    "id": "ews-v06-04",
+    "lecture": "VL 06",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 06"
+    ],
+    "difficulty": "mittel",
+    "title": "Nässeverluste, Erosion und Gegenmaßnahmen",
+    "summary": "Eine hohe Nässe im letzten Teil der Niederdruckturbine mindert den Wirkungsgrad und verursacht Erosion. Die Folien zeigen unter anderem gehärtete Schaufelkanten, Absaugschlitze und beheizte Leitschaufeln. [EWS V06, Folien 13–16]"
+  },
+  {
+    "id": "ews-v06-05",
+    "lecture": "VL 06",
+    "chapter": "Dampfturbine",
+    "tags": [
+      "Wandlung",
+      "Vorlesung 06"
+    ],
+    "difficulty": "mittel",
+    "title": "Wellendichtungen und Massenstrommessung",
+    "summary": "Wellendichtungen sollen den Dampfaustritt an Hoch-/Mitteldruckturbinen und Lufteintritt an Niederdruckturbinen begrenzen. Die Vorlesung behandelt außerdem Messblenden zur Dampf-Massenstrommessung. [EWS V06, Folien 25–28, 32–33]"
   }
 ];
