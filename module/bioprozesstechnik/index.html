@@ -1,6 +1,28 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lernmodul</title><link rel="stylesheet" href="../../assets/css/campus.css"><meta name="theme-color" content="#15283e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lerncampus"><link rel="apple-touch-icon" href="../../assets/icons/icon-192.png"><link rel="manifest" href="../../manifest.webmanifest"></head><body>
+<title>Lernmodul</title><link rel="stylesheet" href="../../assets/css/campus.css"><meta name="theme-color" content="#15283e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lerncampus"><link rel="apple-touch-icon" href="../../assets/icons/icon-192.png"><link rel="manifest" href="../../manifest.webmanifest"><link rel="stylesheet" href="../../assets/css/design-system.css"><style>
+.bio-focus{margin:0 0 22px;background:linear-gradient(115deg,#173344,#205a60);color:#fff;border:0}
+.bio-focus h2{color:white;margin:4px 0 9px}
+.bio-focus p{color:#e2f2f0;margin:0 0 16px}
+.bio-focus small{color:#bbe6de}
+.bio-deadlines{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}
+.bio-deadlines span{border:1px solid #ffffff50;border-radius:12px;padding:9px 12px;background:#ffffff12}
+.bio-focus .btn{display:inline-flex;align-items:center;margin:3px 5px 3px 0}
+.bio-more{min-width:145px;align-self:center;border:1px solid #dce5e9;border-radius:12px;background:#fff}
+.bio-more summary{cursor:pointer;padding:11px 14px;font-weight:700;list-style:none}
+.bio-more summary::after{content:" ▾"}
+.bio-more[open] summary::after{content:" ▴"}
+.bio-more-actions{padding:0 10px 10px;display:flex;flex-wrap:wrap;gap:7px}
+.bio-more-actions button{white-space:normal}
+@media(max-width:720px){.bio-focus{padding:20px 16px}.bio-deadlines{flex-direction:column}}
+</style></head><body>
 <header><div class="wrap"><div class="topline"><div><h1><span id="moduleIcon"></span> <span id="moduleTitle"></span></h1><div class="sub">Modulare Lernplattform</div></div><a class="back" href="../../index.html">← Semester-Campus</a></div></div></header>
-<aside class="panel" style="margin:14px 0"><b>📚 Originalunterlage – VL 01</b><p>Wichtig: Die vier Stufen des anaeroben Abbaus und die Biogaszusammensetzung sind in dieser Einführung als Recherche-/Arbeitsfragen gestellt. Deshalb wurden dazu bewusst keine unbelegten Musterantworten erzeugt.</p><span class="private-source-note" title="Kursunterlage ist aus urheberrechtlichen Gründen nicht auf der öffentlichen Website hinterlegt">📄 Original-PDF öffnen <small>· Originalunterlage privat</small></span></aside>
-<main><nav class="tabs"><button class="active" data-tab="dashboard">Dashboard</button><button data-tab="topics">Lernthemen</button><button data-tab="cards">Karteikarten</button><button data-tab="quiz">Quiz</button><button data-tab="exam">Prüfungsmodus</button><button data-tab="plan">Lernplan</button><button data-tab="notes">Notizen</button><button data-tab="editor">🗂️ Alle Inhalte</button><button data-tab="mistakes">🎯 Meine Fehler</button><button data-tab="trash">🗑️ Papierkorb</button></nav><div id="content"></div></main>
+<main>
+<section class="hero bio-focus" aria-label="Dein Fokus im Bio-Modul">
+<small>BIOLOGISCHE PROZESS- UND CHEMISCHE REAKTIONSTECHNIK</small>
+<h2>Schritt für Schritt zur Machbarkeitsstudie</h2>
+<p>Sechs Vorlesungen, kompakte Lerneinheiten und ein klares Projektziel: Eine Bioabfallvergärungsanlage fachlich planen und ihre Auslegung begründen.</p>
+<div class="bio-deadlines"><span><strong>11.01.2027</strong> · Abgabe Machbarkeitsstudie</span><span><strong>18.01.2027</strong> · Präsentation und Kolloquium</span></div>
+<div><button class="btn primary" data-tab="plan">Meine nächsten Lernschritte</button><button class="btn" data-tab="topics">Lernstoff ansehen</button><button class="btn" data-tab="cards">10 Minuten wiederholen</button></div>
+</section>
+<nav class="tabs"><button class="active" data-tab="dashboard">Dashboard</button><button data-tab="topics">Lernthemen</button><button data-tab="cards">Karteikarten</button><button data-tab="quiz">Quiz</button><button data-tab="exam">Prüfungsmodus</button><button data-tab="plan">Lernplan</button><details class="bio-more"><summary>Weitere Werkzeuge</summary><div class="bio-more-actions"><button data-tab="notes">Notizen</button><button data-tab="editor">Inhalte bearbeiten</button><button data-tab="mistakes">Meine Fehler</button><button data-tab="trash">Papierkorb</button></div></details></nav><div id="content"></div></main>
 <script src="config.js"></script><script src="data/themen.js"></script><script src="data/karteikarten.js"></script><script src="data/quiz.js"></script><script src="data/lernplan.js"></script><script src="../../assets/js/lernsystem.js"></script><script>if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost')){window.addEventListener('load',()=>navigator.serviceWorker.register('../../sw.js').catch(console.warn));}</script></body></html>
