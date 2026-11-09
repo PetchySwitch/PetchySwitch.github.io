@@ -1,7 +1,27 @@
 <!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Semester-Lerncampus</title><link rel="stylesheet" href="assets/css/campus.css"><meta name="theme-color" content="#15283e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lerncampus"><link rel="apple-touch-icon" href="./assets/icons/icon-192.png"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="assets/css/design-system.css"></head>
+<title>Semester-Lerncampus</title><link rel="stylesheet" href="assets/css/campus.css"><meta name="theme-color" content="#15283e"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Lerncampus"><link rel="apple-touch-icon" href="./assets/icons/icon-192.png"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="assets/css/design-system.css"><style>
+.semester-fristen{border:1px solid #dce5e9;background:white;border-radius:18px;padding:18px 20px;margin-bottom:20px;box-shadow:0 5px 18px #1733440b}
+.semester-fristen h2{font-size:1.32rem;margin:0 0 8px}
+.semester-fristen p{margin:6px 0;color:#425c65}
+.semester-fristen .next{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin:10px 0}
+.semester-fristen .date{font-weight:750;color:#155d63;border-radius:9px;background:#eaf5f3;padding:6px 10px}
+.semester-fristen details{margin-top:12px;padding:12px 0 0;border-top:1px solid #dce5e9}
+.semester-fristen summary{cursor:pointer;font-weight:700;color:#176c72}
+.semester-fristen table{width:100%;border-collapse:collapse;margin-top:12px}
+.semester-fristen td{padding:9px 6px;border-bottom:1px solid #e3e9ed;vertical-align:top}
+.semester-fristen tr:last-child td{border-bottom:none}
+.semester-fristen td:first-child{white-space:nowrap;font-weight:700;width:145px}
+.semester-fristen .muted{font-size:.88rem}
+@media(max-width:640px){.semester-fristen{padding:16px}.semester-fristen td:first-child{white-space:normal;width:95px}}
+</style></head>
 <body><header style="--a:#202a44;--b:#4b5f91"><div class="wrap"><h1>🎓 Semester-Lerncampus</h1><div class="sub">Fünf Module · ein gemeinsames Lernsystem</div></div></header>
 <main><section class="hero"><div class="section-title"><div><h2>Semesterübersicht</h2><p class="muted">Dein Lernstand über alle Module.</p></div><div class="toolbar"><button class="btn" id="backupExport">Backup exportieren</button><label class="btn">Backup importieren<input id="backupImport" type="file" accept=".json" hidden></label></div></div><div id="semesterStats" class="stats"></div></section>
+<section class="semester-fristen" aria-label="Prüfungsfristen"><h2>Prüfungen &amp; Abgaben</h2><div class="next"><span class="date">02.–03.12.2026</span><span><strong>Wirtschaftsrecht:</strong> Bonus-Fallblatt (24-Stunden-Fenster)</span></div><p class="muted">Die wichtigsten bisher bekannten Termine aus deinen Unterlagen. Individuelle Klausurtermine fehlen teilweise noch.</p><details><summary>Weitere Termine und offene Prüfungen anzeigen</summary><table><tbody>
+<tr><td>11.01.2027</td><td><strong>Bio &amp; Chemie:</strong> Abgabe Machbarkeitsstudie</td></tr>
+<tr><td>18.01.2027</td><td><strong>Bio &amp; Chemie:</strong> Präsentation und Kolloquium</td></tr>
+<tr><td>31.01.2027</td><td><strong>Energieeffizienz:</strong> Anmeldeschluss zur schriftlichen Ausarbeitung laut Syllabus</td></tr>
+<tr><td>15.02.2027</td><td><strong>Energieeffizienz:</strong> Hausenergieanalyse als PDF, bis 23:59 Uhr</td></tr>
+</tbody></table><p class="muted"><strong>Datum noch offen:</strong> EWS (mündlich, 30 Minuten), Energieeffizienz (Klausur, 90 Minuten), Prozess- und Leittechnik (Klausur, 120 Minuten) und Wirtschaftsrecht (Klausur, 90 Minuten). Praktikumstermine bitte mit der eigenen Gruppe abgleichen.</p></details></section>
 <section class="hero module-section"><div class="module-intro"><h2>Deine Lernwelt</h2><p class="muted">Fünf Module, ein Semester. Wähle deinen nächsten Lernbereich.</p></div>
 <div class="module-orbit" aria-label="Deine fünf Module">
   <div class="orbit-ring orbit-ring-outer" aria-hidden="true"></div>
