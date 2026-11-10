@@ -6,7 +6,7 @@ const MODS = [
  {id:"wirtschaftsrecht",name:"Wirtschaftsrecht",icon:"⚖️",a:"#7c3f8c",b:"#ad70bb"},
  {id:"energieeffizienz",name:"Energieeffizienz",icon:"🌿",a:"#ca3e73",b:"#ec7aa5"}
 ];
-const EXTRA_PROGRESS_KEYS=["ews-oral-v48-ratings","ews-v50-topic-progress","ews-v51-reife","campus:wirtschaftsrecht:falltrainer"];
+const EXTRA_PROGRESS_KEYS=["ews-oral-v48-ratings","ews-v50-topic-progress","ews-v51-reife","campus:wirtschaftsrecht:falltrainer","campus:semester-weekly"];
 const emptyState=()=>({version:2,readTopics:[],knownCards:[],donePlan:[],quizOK:0,quizN:0,notes:"",lastTab:"dashboard",lastActivity:null});
 function parse(x,f={}){try{return {...f,...JSON.parse(x||"{}")}}catch(e){return f}}
 function stateFor(id){return parse(localStorage.getItem("campus:"+id),emptyState())}
