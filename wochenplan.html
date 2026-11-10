@@ -1,0 +1,87 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#173344"><title>Dein Wochenplan · 10.–16. November 2026</title><link rel="stylesheet" href="assets/css/campus.css"><link rel="stylesheet" href="assets/css/design-system.css">
+<style>
+.week-head{padding:27px 22px 31px;background:linear-gradient(110deg,#173344,#28666b);color:#fff}
+.week-head .wrap{max-width:1050px}
+.week-head a{color:#b5ebe3;font-weight:700;text-decoration:none}
+.week-head .kicker{color:#acebe0;text-transform:uppercase;letter-spacing:.13em;font-size:.72rem;font-weight:800;margin-top:18px}
+.week-head h1{font-size:clamp(1.9rem,4vw,2.7rem);margin:7px 0 8px;color:#fff}
+.week-head p{color:#e1f0ed;max-width:780px;margin:0;line-height:1.6}
+.week-main{max-width:1050px;margin:25px auto;padding:0 18px 56px}
+.summary{background:#fff;border:1px solid #dce5e9;border-radius:18px;padding:22px;margin-bottom:18px}
+.summary h2{font-size:1.27rem;margin:0 0 8px}
+.summary p{margin:6px 0 12px;color:#536d74}
+.summary .progress-line{height:12px;border-radius:18px;background:#e3efed;overflow:hidden}
+.summary .progress-line span{display:block;height:100%;width:0;background:#247e75;transition:width .2s}
+.summary .state{color:#165d60;font-weight:800;margin-bottom:7px}
+.priority{background:#eaf5f3;border:1px solid #d2e8e4;border-radius:14px;padding:15px 18px;margin-bottom:18px}
+.priority strong{color:#15555b}
+.priority p{margin:7px 0 0}
+.day{background:#fff;border:1px solid #dce5e9;border-radius:18px;margin:16px 0;padding:20px 22px}
+.dayhead{display:flex;justify-content:space-between;align-items:center;gap:15px;border-bottom:1px solid #e5ebec;padding-bottom:13px;margin-bottom:5px}
+.date-label{font-weight:800;color:#14716c;letter-spacing:.01em}
+.day h2{font-size:1.15rem;margin:5px 0 0}
+.daily{font-size:.8rem;color:#627584;white-space:nowrap}
+.task{display:flex;align-items:flex-start;gap:14px;padding:15px 0;border-bottom:1px solid #edf0f0;cursor:pointer}
+.task:last-child{border-bottom:none;padding-bottom:4px}
+.task input[type=checkbox]{width:22px;height:22px;flex:none;margin:2px 0 0;accent-color:#17786f}
+.taskbody{display:block;flex:1;min-width:0}
+.subject{font-size:.84rem;font-weight:800;color:#176b68}
+.duration{font-size:.79rem;font-weight:600;margin-left:11px;color:#768891}
+.tasktext{display:block;margin:6px 0 5px;line-height:1.55;color:#243e49}
+.task input:checked+.taskbody .tasktext{text-decoration:line-through;color:#839296}
+.modulelink{font-size:.82rem;color:#176c72;font-weight:700;text-decoration:none}
+.modulelink:hover{text-decoration:underline}
+.future{background:white;border:1px solid #dce5e9;border-radius:16px;padding:20px 22px;margin-top:20px}
+.future h2{margin:0 0 12px;font-size:1.25rem}
+.future table{width:100%;border-collapse:collapse}
+.future td{border-bottom:1px solid #e7eded;padding:10px 7px;vertical-align:top}
+.future td:first-child{font-weight:800;color:#175d61;width:145px}
+.future tr:last-child td{border:0}
+.future p{font-size:.87rem;color:#657984;margin:12px 0 0}
+.private-note{font-size:.85rem;color:#627584;margin:18px 0}
+@media(max-width:600px){.week-main{padding:0 12px}.day,.summary,.future{padding:17px}.future td:first-child{width:92px}.duration{display:block;margin:2px 0 0}}
+@media print{.week-head{background:#fff!important;color:#000;padding:12px}.week-head a,.modulelink{display:none}.week-head h1,.week-head p{color:#000}.day{break-inside:avoid;box-shadow:none}.summary{break-inside:avoid}.week-main{margin:0}}
+</style></head><body>
+<header class="week-head"><div class="wrap"><a href="index.html">← Zum Semester-Lerncampus</a><div class="kicker">DEIN KONKRETER LERNWEG</div><h1>Wochenplan · 10.–16. November</h1><p>Realistisch neben deinen Vorlesungen: meistens 35–60 Minuten am Tag, am Freitag nur das Praktikum. Hake die Schritte ab, sobald du sie erledigt hast.</p></div></header>
+<main class="week-main"><section class="summary"><h2>Dein Fortschritt</h2><div class="state" id="state">0 von 15 Schritten erledigt</div><div class="progress-line" aria-label="Fortschrittsanzeige"><span id="bar"></span></div><p>Der Fortschritt wird nur in diesem Browser gespeichert. Er lässt sich zusätzlich mit dem Backup auf der Semester-Startseite sichern.</p></section>
+<div class="priority"><strong>Diese Woche zuerst:</strong><p>1. Die Bio-Praktikumsüberschneidung klären und das Gruppentreffen anstoßen. 2. Die Messreihe für Energieeffizienz beginnen. 3. Das Prozessleittechnik-Praktikum am 13. November vorbereiten und besuchen.</p></div>
+<section class="day" id="2026-11-10"><div class="dayhead"><div><span class="date-label">Di, 10.11.</span><h2>Organisation zuerst</h2></div><span class="daily" data-day-count="2026-11-10"></span></div>
+<label class="task"><input type="checkbox" data-task="bio-lehrperson" aria-label="Dem Dozenten wegen der Überschneidung am 17.11. und 15.12. schreiben: Ersatztermine und eventuelle Protokollpflicht erfragen."><span class="taskbody"><span class="subject">Bio & Chemie<span class="duration">15 Min.</span></span><span class="tasktext">Dem Dozenten wegen der Überschneidung am 17.11. und 15.12. schreiben: Ersatztermine und eventuelle Protokollpflicht erfragen.</span><a href="module/bioprozesstechnik/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="bio-gruppe" aria-label="Der Gruppe ein erstes Treffen für diese Woche vorschlagen (30–45 Min.): Aufgabenstellung, Rollen und Zwischenziele."><span class="taskbody"><span class="subject">Bio & Chemie<span class="duration">15 Min.</span></span><span class="tasktext">Der Gruppe ein erstes Treffen für diese Woche vorschlagen (30–45 Min.): Aufgabenstellung, Rollen und Zwischenziele.</span><a href="module/bioprozesstechnik/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="ee-startplan" aria-label="Aufgabe 2 öffnen, den Messort festlegen und Startzeit, Messintervalle und Geräteposition notieren."><span class="taskbody"><span class="subject">Energieeffizienz<span class="duration">15 Min.</span></span><span class="tasktext">Aufgabe 2 öffnen, den Messort festlegen und Startzeit, Messintervalle und Geräteposition notieren.</span><a href="module/energieeffizienz/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="day" id="2026-11-11"><div class="dayhead"><div><span class="date-label">Mi, 11.11.</span><h2>Messung starten</h2></div><span class="daily" data-day-count="2026-11-11"></span></div>
+<label class="task"><input type="checkbox" data-task="ee-messstart" aria-label="Temperatur-, Feuchte- und CO₂-Langzeitmessung starten; Zeitpunkt und Nutzung/Lüften protokollieren. Ziel: möglichst 1–2 Wochen."><span class="taskbody"><span class="subject">Energieeffizienz<span class="duration">35 Min.</span></span><span class="tasktext">Temperatur-, Feuchte- und CO₂-Langzeitmessung starten; Zeitpunkt und Nutzung/Lüften protokollieren. Ziel: möglichst 1–2 Wochen.</span><a href="module/energieeffizienz/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="ews-joule" aria-label="Den Joule-Prozess oder Rankine-Prozess ohne Unterlagen skizzieren und 5 Minuten mündlich erklären."><span class="taskbody"><span class="subject">EWS<span class="duration">20 Min.</span></span><span class="tasktext">Den Joule-Prozess oder Rankine-Prozess ohne Unterlagen skizzieren und 5 Minuten mündlich erklären.</span><a href="module/energiewandlung/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="day" id="2026-11-12"><div class="dayhead"><div><span class="date-label">Do, 12.11.</span><h2>Praktikum vorbereiten</h2></div><span class="daily" data-day-count="2026-11-12"></span></div>
+<label class="task"><input type="checkbox" data-task="plt-vorbereiten" aria-label="Aufgabenblatt für Praktikumstermin 3 lesen, CODESYS-Projekt und benötigte Logik vorbereiten; keine Abgabe nötig."><span class="taskbody"><span class="subject">Prozess- und Leittechnik<span class="duration">30 Min.</span></span><span class="tasktext">Aufgabenblatt für Praktikumstermin 3 lesen, CODESYS-Projekt und benötigte Logik vorbereiten; keine Abgabe nötig.</span><a href="module/prozess-leittechnik/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="wri-fall1" aria-label="Einen Fall zu Vertragsschluss oder Verjährung erst selbst im Prüfungsstil bearbeiten, danach Musterstruktur prüfen."><span class="taskbody"><span class="subject">Wirtschaftsrecht<span class="duration">20 Min.</span></span><span class="tasktext">Einen Fall zu Vertragsschluss oder Verjährung erst selbst im Prüfungsstil bearbeiten, danach Musterstruktur prüfen.</span><a href="module/wirtschaftsrecht/faelle.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="day" id="2026-11-13"><div class="dayhead"><div><span class="date-label">Fr, 13.11.</span><h2>Praktikumstag – sonst frei</h2></div><span class="daily" data-day-count="2026-11-13"></span></div>
+<label class="task"><input type="checkbox" data-task="plt-praktikum3" aria-label="Praktikum Gruppe 1 in BOT 03.113. Das reicht für heute als Lernleistung; nachher höchstens offene Fragen notieren."><span class="taskbody"><span class="subject">Prozess- und Leittechnik<span class="duration">14:05–17:30</span></span><span class="tasktext">Praktikum Gruppe 1 in BOT 03.113. Das reicht für heute als Lernleistung; nachher höchstens offene Fragen notieren.</span><a href="module/prozess-leittechnik/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="day" id="2026-11-14"><div class="dayhead"><div><span class="date-label">Sa, 14.11.</span><h2>Projekt voranbringen</h2></div><span class="daily" data-day-count="2026-11-14"></span></div>
+<label class="task"><input type="checkbox" data-task="bio-studie" aria-label="Aufgabenstellung zur Machbarkeitsstudie strukturieren: Fragestellung, Datengrundlage, Stoff-/Energiebilanz und Zuständigkeiten."><span class="taskbody"><span class="subject">Bio & Chemie<span class="duration">45 Min.</span></span><span class="tasktext">Aufgabenstellung zur Machbarkeitsstudie strukturieren: Fragestellung, Datengrundlage, Stoff-/Energiebilanz und Zuständigkeiten.</span><a href="module/bioprozesstechnik/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="ee-check" aria-label="Prüfen, ob die Raumluftmessung läuft und plausible Werte erfasst. Auffälligkeiten und Störereignisse kurz notieren."><span class="taskbody"><span class="subject">Energieeffizienz<span class="duration">15 Min.</span></span><span class="tasktext">Prüfen, ob die Raumluftmessung läuft und plausible Werte erfasst. Auffälligkeiten und Störereignisse kurz notieren.</span><a href="module/energieeffizienz/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="day" id="2026-11-15"><div class="dayhead"><div><span class="date-label">So, 15.11.</span><h2>Festigen statt überladen</h2></div><span class="daily" data-day-count="2026-11-15"></span></div>
+<label class="task"><input type="checkbox" data-task="wri-fall2" aria-label="Einen weiteren juristischen Fall handschriftlich lösen; Anspruchsgrundlage, Subsumtion und Ergebnis sauber trennen."><span class="taskbody"><span class="subject">Wirtschaftsrecht<span class="duration">25 Min.</span></span><span class="tasktext">Einen weiteren juristischen Fall handschriftlich lösen; Anspruchsgrundlage, Subsumtion und Ergebnis sauber trennen.</span><a href="module/wirtschaftsrecht/faelle.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="ews-wiederholung" aria-label="5 mündliche Prüfungsfragen aus dem EWS-Trainer laut beantworten und unsichere Antworten markieren."><span class="taskbody"><span class="subject">EWS<span class="duration">25 Min.</span></span><span class="tasktext">5 mündliche Prüfungsfragen aus dem EWS-Trainer laut beantworten und unsichere Antworten markieren.</span><a href="module/energiewandlung/pruefungstrainer.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="day" id="2026-11-16"><div class="dayhead"><div><span class="date-label">Mo, 16.11.</span><h2>Nächste Woche anbahnen</h2></div><span class="daily" data-day-count="2026-11-16"></span></div>
+<label class="task"><input type="checkbox" data-task="ews-speicher" aria-label="Beginn des Speicherteils: Themen aus der neuen Vorlesung sammeln; fehlende Fachfolien später ergänzen."><span class="taskbody"><span class="subject">EWS<span class="duration">20 Min.</span></span><span class="tasktext">Beginn des Speicherteils: Themen aus der neuen Vorlesung sammeln; fehlende Fachfolien später ergänzen.</span><a href="module/energiewandlung/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="ee-messpruefung" aria-label="Messreihe auf Lücken prüfen und Nutzungs-/Lüftungszeiten notieren; noch keine aufwendige Auswertung."><span class="taskbody"><span class="subject">Energieeffizienz<span class="duration">15 Min.</span></span><span class="tasktext">Messreihe auf Lücken prüfen und Nutzungs-/Lüftungszeiten notieren; noch keine aufwendige Auswertung.</span><a href="module/energieeffizienz/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label>
+<label class="task"><input type="checkbox" data-task="bio-antwort" aria-label="Prüfen, ob Dozent und Projektgruppe zu Terminverschiebung bzw. erstem Treffen geantwortet haben."><span class="taskbody"><span class="subject">Bio & Chemie<span class="duration">10 Min.</span></span><span class="tasktext">Prüfen, ob Dozent und Projektgruppe zu Terminverschiebung bzw. erstem Treffen geantwortet haben.</span><a href="module/bioprozesstechnik/index.html" class="modulelink" onclick="event.stopPropagation()">Modul öffnen <span aria-hidden="true">↗</span></a></span></label></section>
+<section class="future"><h2>Termine, die wir im Blick behalten</h2><table><tbody>
+<tr><td>17.11. und 15.12.</td><td>Bio/Chemie-Praktikum: wegen Vorlesung noch mit dem Dozenten klären</td></tr>
+<tr><td>02.–03.12.</td><td>Wirtschaftsrecht-Bonusfall, Abgabe bis 03.12. um 14:00 Uhr – möglichst am 02.12. erledigen</td></tr>
+<tr><td>03.12.</td><td>Energieeffizienz: Hydraulik 13–15 Uhr, Wärmepumpe 15–17 Uhr</td></tr>
+<tr><td>04.12.</td><td>Prozess- und Leittechnik: Praktikum Gruppe 1, 14:05–17:30 Uhr</td></tr>
+<tr><td>11. und 18.01.</td><td>Bio/Chemie: Machbarkeitsstudie und Kolloquium</td></tr>
+<tr><td>25.–29.01.</td><td>Energieeffizienz: Klausur; danach Hausanalyse bis 15.02.2027, 23:59 Uhr</td></tr>
+<tr><td>15.–19.03.</td><td>Prozessleittechnik und Wirtschaftsrecht: Klausuren (genaue Tage noch offen)</td></tr>
+</tbody></table><p>EWS: mündliche Prüfung wahlweise Ende Januar oder Ende März; die Entscheidung treffen wir erst nach Feststehen der übrigen Klausurtermine. Das EWS-Praktikum erfordert keine weitere Planung.</p></section>
+<p class="private-note">Planstand: 10.11.2026 · Unbestätigte Termine sind gekennzeichnet. Keine privaten Originalskripte oder Messdaten werden in dieser öffentlichen Website gespeichert.</p>
+</main>
+<script>(function(){
+"use strict";const KEY="campus:semester-weekly",WEEK="2026-11-10";let all={};try{const r=JSON.parse(localStorage.getItem(KEY)||"{}");if(r&&typeof r==="object"&&!Array.isArray(r))all=r}catch(e){}
+let done=all[WEEK]&&typeof all[WEEK]==="object"?all[WEEK]:{};
+const boxes=[...document.querySelectorAll("input[data-task]")];
+function render(){let n=0;for(const x of boxes){x.checked=!!done[x.dataset.task];if(x.checked)n++}document.getElementById("state").textContent=n+" von "+boxes.length+" Schritten erledigt";document.getElementById("bar").style.width=(boxes.length?100*n/boxes.length:0)+"%";for(const el of document.querySelectorAll("[data-day-count]")){const day=el.dataset.dayCount;const a=[...document.querySelectorAll("#"+CSS.escape(day)+" input[data-task]")];el.textContent=a.filter(x=>x.checked).length+" / "+a.length+" erledigt"}}
+for(const box of boxes){box.addEventListener("change",()=>{done[box.dataset.task]=box.checked;all[WEEK]=done;try{localStorage.setItem(KEY,JSON.stringify(all))}catch(e){}render()})}render()
+})();</script></body></html>
