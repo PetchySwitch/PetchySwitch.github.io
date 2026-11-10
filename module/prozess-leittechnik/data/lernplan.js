@@ -1,5 +1,33 @@
 window.MODULE_DATA.plan=[
   {
+    "id": "plt-gruppe1-2026-11-13",
+    "when": "13.11.2026 · 14:05–17:30",
+    "task": "Prozessleittechnik-Praktikum Gruppe 1, Termin 3 von 6, BOT 03.113. Kein Protokoll/Programm vorher oder nachher abzugeben.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "plt-gruppe1-2026-12-04",
+    "when": "04.12.2026 · 14:05–17:30",
+    "task": "Prozessleittechnik-Praktikum Gruppe 1, Termin 4 von 6, BOT 03.113. Aufgaben freiwillig zu Hause vorbereiten.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "plt-gruppe1-2026-12-18",
+    "when": "18.12.2026 · 14:05–17:30",
+    "task": "Prozessleittechnik-Praktikum Gruppe 1, Termin 5 von 6, BOT 03.113. Keine gesonderte Abgabepflicht.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "plt-gruppe1-2027-01-15",
+    "when": "15.01.2027 · 14:05–17:30",
+    "task": "Prozessleittechnik-Praktikum Gruppe 1, Termin 6 von 6, BOT 03.113. Sicherstellen, dass das Praktikum vollständig bestanden ist, damit die Klausurzulassung erfüllt wird.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
     "id": "prozess-leittechnik-v01-plan-1",
     "when": "Vorlesung 00",
     "task": "Organisationsfolien, Lernziele und Prüfungsbedingungen durchgehen.",
@@ -22,8 +50,8 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "plt-2026-plan-01",
-    "when": "Vor dem nächsten Praktikum · 15 Min.",
-    "task": "Eigene Praktikumsgruppe und Termine bestätigen. Gruppe 1: 13.11.2026; Gruppe 2: 20.11.2026, jeweils 14:05–17:30 Uhr. Kursunterlagen prüfen.",
+    "when": "13.11.2026 · Gruppe 1",
+    "task": "Gruppe 1: Termine am 09.10. und 30.10. erfolgreich absolviert. Nächster Termin 13.11., 14:05–17:30 Uhr, BOT 03.113. Vorher Aufgabenblatt lesen und wenn sinnvoll in CODESYS vorbereiten; keine Abgabe.",
     "lecture": "Praktikum",
     "chapter": "Praktikum"
   },
@@ -78,22 +106,22 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "plt-2026-plan-09",
-    "when": "Praktikum 1 · 25 Min.",
-    "task": "In CODESYS 3.5: UND-Verknüpfung der Zweihandbedienung als FUP/Simulation nachvollziehen und Visualisierung prüfen.",
+    "when": "Freiwillige Wiederholung",
+    "task": "Zweihandfreigabe in CODESYS/FUP als Wiederholung; die zugehörige frühe Praktikumsphase ist bereits erfolgreich absolviert und erfordert keine Abgabe.",
     "lecture": "Praktikum",
     "chapter": "Praktikum"
   },
   {
     "id": "plt-2026-plan-10",
-    "when": "Praktikum 2 · 25 Min.",
-    "task": "Ampel-Schrittkette in AS mit Transitionen, Zeitbedingungen und Sicherheitsprüfung zeichnen; Ausgangsprojekt nur in CODESYS öffnen.",
+    "when": "Freiwillige Wiederholung",
+    "task": "Ampelsteuerung als Ablaufkette wiederholen; der frühere Praktikumsbesuch ist bereits erfolgt und erfordert keine nachträgliche Abgabe.",
     "lecture": "Praktikum",
     "chapter": "Praktikum"
   },
   {
     "id": "plt-2026-plan-11",
-    "when": "Praktikum 3 · 25 Min.",
-    "task": "Maschinenbediener/Totmannüberwachung: Quittierung, Vorwarnung, Maschinenstopp und Umlaufzähler als Ablaufplan skizzieren.",
+    "when": "Vor nächstem Praktikum · 25 Min.",
+    "task": "Aufgabenblatt für den nächsten Termin lesen; Maschinenbedienung/Totmannüberwachung, Quittierung und Umlaufzähler bei Bedarf als Ablaufplan vorbereiten. Aufgabenbearbeitung vor Ort möglich.",
     "lecture": "Praktikum",
     "chapter": "Praktikum"
   },
@@ -113,8 +141,8 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "plt-2026-plan-14",
-    "when": "Klausurtermin offen",
-    "task": "Klausurdatum aus Hochschulkalender/Campusnet ergänzen; 120 Minuten und erlaubte handschriftliche A4-Hilfsmittel berücksichtigen.",
+    "when": "15.–19.03.2027 · Klausur",
+    "task": "Die 120-minütige schriftliche Klausur ist für 15.–19.03.2027 angekündigt; genauer Tag noch offen. Bis zum 15.03. prüfungsbereit sein. Handschriftliche A4-Stichwortsammlung vorbereiten.",
     "lecture": "Prüfung",
     "chapter": "Prüfung"
   }
