@@ -13,15 +13,38 @@
 .semester-fristen td:first-child{white-space:nowrap;font-weight:700;width:145px}
 .semester-fristen .muted{font-size:.88rem}
 @media(max-width:640px){.semester-fristen{padding:16px}.semester-fristen td:first-child{white-space:normal;width:95px}}
+
+.wochen-teaser{border:1px solid #c9e2dd;background:linear-gradient(115deg,#e8f5f2,#fff);border-radius:18px;padding:20px 22px;margin-bottom:20px;display:flex;justify-content:space-between;gap:22px;align-items:center}
+.wochen-teaser h2{font-size:1.35rem;margin:0 0 5px}
+.wochen-teaser p{color:#45636b;margin:6px 0}
+.wochen-teaser a{border-radius:12px;background:#176c72;color:white;padding:12px 17px;text-decoration:none;font-weight:800;white-space:nowrap}
+.wochen-teaser a:hover{background:#12565b}
+@media(max-width:670px){.wochen-teaser{display:block}.wochen-teaser a{display:inline-block;margin-top:8px;white-space:normal}}
 </style></head>
 <body><header style="--a:#202a44;--b:#4b5f91"><div class="wrap"><h1>🎓 Semester-Lerncampus</h1><div class="sub">Fünf Module · ein gemeinsames Lernsystem</div></div></header>
 <main><section class="hero"><div class="section-title"><div><h2>Semesterübersicht</h2><p class="muted">Dein Lernstand über alle Module.</p></div><div class="toolbar"><button class="btn" id="backupExport">Backup exportieren</button><label class="btn">Backup importieren<input id="backupImport" type="file" accept=".json" hidden></label></div></div><div id="semesterStats" class="stats"></div></section>
-<section class="semester-fristen" aria-label="Prüfungsfristen"><h2>Prüfungen &amp; Abgaben</h2><div class="next"><span class="date">02.–03.12.2026</span><span><strong>Wirtschaftsrecht:</strong> Bonus-Fallblatt (24-Stunden-Fenster)</span></div><p class="muted">Die wichtigsten bisher bekannten Termine aus deinen Unterlagen. Individuelle Klausurtermine fehlen teilweise noch.</p><details><summary>Weitere Termine und offene Prüfungen anzeigen</summary><table><tbody>
-<tr><td>11.01.2027</td><td><strong>Bio &amp; Chemie:</strong> Abgabe Machbarkeitsstudie</td></tr>
-<tr><td>18.01.2027</td><td><strong>Bio &amp; Chemie:</strong> Präsentation und Kolloquium</td></tr>
-<tr><td>31.01.2027</td><td><strong>Energieeffizienz:</strong> Anmeldeschluss zur schriftlichen Ausarbeitung laut Syllabus</td></tr>
-<tr><td>15.02.2027</td><td><strong>Energieeffizienz:</strong> Hausenergieanalyse als PDF, bis 23:59 Uhr</td></tr>
-</tbody></table><p class="muted"><strong>Datum noch offen:</strong> EWS (mündlich, 30 Minuten), Energieeffizienz (Klausur, 90 Minuten), Prozess- und Leittechnik (Klausur, 120 Minuten) und Wirtschaftsrecht (Klausur, 90 Minuten). Praktikumstermine bitte mit der eigenen Gruppe abgleichen.</p></details></section>
+<section class="wochen-teaser"><div><h2>Diese Woche: 10.–16. November</h2><p>15 kleine Schritte für alle fünf Module – mit abhäkbaren Tagesaufgaben. <strong>Vorrang:</strong> Bio-Termine klären, Messreihe starten, Freitag Prozessleittechnik-Praktikum.</p></div><a href="wochenplan.html">Wochenplan öffnen →</a></section>
+<section class="semester-fristen" aria-label="Prüfungsfristen"><h2>Prüfungen &amp; Praktika</h2>
+<div class="next"><span class="date">Fr, 13.11.2026</span><span><strong>Prozess- und Leittechnik:</strong> Praktikum Gruppe 1, 14:05–17:30 Uhr, BOT 03.113</span></div>
+<p class="muted">Bekannte Daten aus Kursunterlagen und Terminangaben. Nicht bestätigte Termine sind entsprechend markiert.</p>
+<details><summary>Alle bekannten Termine &amp; offenen Prüfungsfragen anzeigen</summary><table><tbody>
+<tr><td>17.11.2026</td><td><strong>Bio und Chemie:</strong> Praktikum vorgesehen; Überschneidung mit Vorlesung, Verschiebung noch zu klären</td></tr>
+<tr><td>02.–03.12.2026</td><td><strong>Wirtschaftsrecht:</strong> Bonus-Fallblatt, 02.12. ab 14:00 bis 03.12. 14:00 Uhr. Möglichst am 02.12. erledigen</td></tr>
+<tr><td>03.12.2026</td><td><strong>Energieeffizienz:</strong> Hydraulikpraktikum 13–15 Uhr; Wärmepumpenpraktikum 15–17 Uhr</td></tr>
+<tr><td>04.12.2026</td><td><strong>Prozess- und Leittechnik:</strong> Praktikum Gruppe 1, 14:05–17:30 Uhr, BOT 03.113</td></tr>
+<tr><td>15.12.2026</td><td><strong>Bio und Chemie:</strong> Praktikum vorgesehen; Überschneidung mit Vorlesung, Verschiebung noch zu klären</td></tr>
+<tr><td>18.12.2026</td><td><strong>Prozess- und Leittechnik:</strong> Praktikum Gruppe 1, 14:05–17:30 Uhr, BOT 03.113</td></tr>
+<tr><td>21.12.2026</td><td><strong>Bio und Chemie:</strong> Exkursion Asdonkshof, 09:30 Uhr; Teilnahmevorgaben im Kurs klären</td></tr>
+<tr><td>11.01.2027</td><td><strong>Bio und Chemie:</strong> Abgabe Machbarkeitsstudie</td></tr>
+<tr><td>15.01.2027</td><td><strong>Prozess- und Leittechnik:</strong> Praktikum Gruppe 1, 14:05–17:30 Uhr, BOT 03.113</td></tr>
+<tr><td>18.01.2027</td><td><strong>Bio und Chemie:</strong> Präsentation/Kolloquium, Uhrzeit offen</td></tr>
+<tr><td>Ende Jan. / März</td><td><strong>EWS:</strong> 30-minütige mündliche Prüfung – Entscheidung über den Prüfungsblock noch offen; Praktikum bereits abgeschlossen</td></tr>
+<tr><td>25.–29.01.2027</td><td><strong>Energieeffizienz:</strong> Klausur in dieser Woche, genauer Tag offen</td></tr>
+<tr><td>31.01.2027</td><td><strong>Energieeffizienz:</strong> Anmeldeschluss zur schriftlichen Ausarbeitung laut Syllabus; verbindliche Portalfrist prüfen</td></tr>
+<tr><td>15.02.2027</td><td><strong>Energieeffizienz:</strong> Abgabe häusliche Energieanalyse als PDF, 23:59 Uhr</td></tr>
+<tr><td>15.–19.03.2027</td><td><strong>Prozess- und Leittechnik und Wirtschaftsrecht:</strong> jeweils eine Klausur, genaue Prüfungstage noch offen</td></tr>
+</tbody></table>
+<p class="muted">Prozessleittechnik-Gruppe 1: Die Termine am 09.10. und 30.10. wurden bereits erfolgreich absolviert, weitere Abgaben sind nicht vorgesehen. Wirtschaftsrecht: drei Moodle-Bonustests wurden absolviert, Bestehen derzeit unbestätigt. Bio/Chemie: Praktikumsprotokolle und Ersatztermine sind offen.</p></details></section>
 <section class="hero module-section"><div class="module-intro"><h2>Deine Lernwelt</h2><p class="muted">Fünf Module, ein Semester. Wähle deinen nächsten Lernbereich.</p></div>
 <div class="module-orbit" aria-label="Deine fünf Module">
   <div class="orbit-ring orbit-ring-outer" aria-hidden="true"></div>
