@@ -1,5 +1,12 @@
 window.MODULE_DATA.plan=[
   {
+    "id": "ews-pruefungswahl-2027",
+    "when": "Ende Januar ODER Ende März 2027",
+    "task": "Mündliche Prüfung dauert 30 Minuten ohne Hilfsmittel. Zwei mögliche Prüfungsblöcke: Ende Januar oder Ende März; Entscheidung erst nach Bekanntgabe der übrigen Klausurtermine treffen.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
     "id": "energiewandlung-v01-plan-1",
     "when": "Vorlesung 01",
     "task": "Fließbild und die vier Zustandsänderungen des Joule-Prozesses skizzieren.",
@@ -127,15 +134,15 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "ews-plan-praktikum",
-    "when": "Praktikum · 15 Min.",
-    "task": "Für beide Praktikumstestate Laborgruppe, Versuchstermine, Vorab-Kolloquium sowie Abgabe der Protokolle zwei Wochen nach Versuch prüfen.",
+    "when": "Bereits abgeschlossen",
+    "task": "Die beiden EWS-Praktikumstestate sind bereits bestanden. Kein weiterer Praktikums- oder Protokollaufwand für EWS nötig; diesen Eintrag kannst du als erledigt markieren.",
     "lecture": "VL 06",
     "chapter": "Praktikum"
   },
   {
     "id": "ews-plan-speicher",
     "when": "Ab 16.11.2026",
-    "task": "Energiespeicherung beginnt laut Organisation am 16.11.2026; neue Vorlesungs- und Übungsmaterialien nach Erhalt ergänzen, nicht vorwegnehmen.",
+    "task": "Beginn Vorlesungsteil Energiespeicherung am 16.11.2026. Neue Materialien bei Erhalt ergänzen und für die mündliche Prüfung einbeziehen.",
     "lecture": "VL 06",
     "chapter": "Organisation"
   }
