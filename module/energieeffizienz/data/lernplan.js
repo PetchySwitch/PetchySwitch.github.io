@@ -1,5 +1,26 @@
 window.MODULE_DATA.plan=[
   {
+    "id": "ee-w46-messreihe",
+    "when": "10.–13.11.2026",
+    "task": "Langzeitmessung für die Hausenergieanalyse starten, Startzeit notieren und Daten regelmäßig auf Plausibilität kontrollieren. Diese Woche noch keine große Auswertung nötig.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "ee-lab-2026-12-03",
+    "when": "03.12.2026 · 13:00–17:00",
+    "task": "Zwei Praktika am selben Tag: Hydraulik 13:00–15:00 Uhr, Wärmepumpe 15:00–17:00 Uhr. Unterlagen und ggf. Antestat rechtzeitig vorbereiten.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "ee-pruefung-2027-jan",
+    "when": "25.–29.01.2027 · Klausurwoche",
+    "task": "Schriftliche Energieeffizienz-Klausur in der ersten Prüfungswoche, genauer Tag noch offen. Bis zum 25.01. prüfungsbereit sein; Hausanalyse bis 15.02.2027.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
     "id": "eneff-2026-plan-01",
     "when": "Sofort · 20 Min.",
     "task": "Prüfungsübersicht lesen: Klausur (50 %) und häusliche Energieanalyse (50 %). Anmeldung/Praktikumstermine in Campusnet und Moodle überprüfen.",
@@ -15,15 +36,15 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "eneff-2026-plan-03",
-    "when": "Diese Woche · 20 Min.",
-    "task": "Messgerätekoffer und Aufgabenstellung durchgehen; Messtechnik/Sicherheit verstehen. Klären, ob Koffer und vorgeschriebene Praktikumstermine verfügbar sind.",
+    "when": "Aufgabe 1 erledigt",
+    "task": "Aufgabe 1 zur Erprobung der Messgeräte ist abgeschlossen, der Messgerätekoffer ist vorhanden. Für Aufgabe 2 Messintervalle und Positionierung planen.",
     "lecture": "Hausanalyse",
     "chapter": "Hausanalyse"
   },
   {
     "id": "eneff-2026-plan-04",
-    "when": "Diese Woche · 20 Min.",
-    "task": "Für die Messung im Schlafzimmer einen Zeitraum von 1–2 Wochen planen; Temperatur, Luftfeuchte und CO₂ mit Zeitstempel aufzeichnen.",
+    "when": "10.–13.11.2026 · starten",
+    "task": "Aufgabe 2: Raumluftmessung in den nächsten Tagen starten (Temperatur, relative Feuchte, CO₂ mit Zeitstempel). Möglichst ein bis zwei Wochen Daten sammeln und Lüften/Nutzung notieren.",
     "lecture": "Hausanalyse",
     "chapter": "Hausanalyse"
   },
