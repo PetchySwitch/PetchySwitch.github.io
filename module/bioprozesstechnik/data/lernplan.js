@@ -1,5 +1,33 @@
 window.MODULE_DATA.plan=[
   {
+    "id": "bio-w46-termin",
+    "when": "Bis 12.11.2026",
+    "task": "Dozenten wegen der Kollision der Bio-/Chemie-Praktika am 17.11. und 15.12. mit der Vorlesung kontaktieren: andere Termine und mögliche Berichts-/Protokollpflicht klären.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "bio-w46-gruppe",
+    "when": "Bis 15.11.2026",
+    "task": "Erstes Gruppentreffen für die Machbarkeitsstudie vereinbaren (30–45 Min.), Aufgaben verteilen und interne Zwischenziele festlegen.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "bio-termine-praktikum",
+    "when": "17.11. und 15.12.2026 · vorläufig",
+    "task": "Bio-/Chemie-Praktika vorgesehen, jedoch Überschneidung mit Vorlesung. Bis zur Rückmeldung des Dozenten keine bestätigte Teilnahmezeit oder Abgabefrist annehmen.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "bio-exkursion-2026",
+    "when": "21.12.2026, 09:30",
+    "task": "Exkursion Asdonkshof laut Kursunterlagen; Treffpunkt und Teilnahmevorgaben noch im Kurs prüfen.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
     "id": "bioprozesstechnik-v01-plan-1",
     "when": "Vorlesung 01",
     "task": "Einführung, Anwendungen und Ziel der Prozess- und Reaktionstechnik wiederholen.",
@@ -8,8 +36,8 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "bioprozesstechnik-v01-plan-2",
-    "when": "Projektstart",
-    "task": "Machbarkeitsstudie: Aufgabenstellung, Datenunsicherheiten und benötigte Bilanzen strukturieren.",
+    "when": "Diese Woche · Projektstart",
+    "task": "Projektgruppe ist gebildet; erstes Treffen vereinbaren, Aufgabenstellung und benötigte Daten besprechen und Verantwortlichkeiten festlegen. Inhaltliche Arbeit steht noch am Anfang.",
     "lecture": "VL 01",
     "chapter": "Vorlesung 01"
   },
