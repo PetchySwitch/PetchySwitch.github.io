@@ -1,5 +1,19 @@
 window.MODULE_DATA.plan=[
   {
+    "id": "wri-fall-vorbereiten-2026",
+    "when": "Bis 01.12.2026",
+    "task": "Für das handschriftliche Bonus-Fallblatt mindestens zwei Fälle mit Obersatz, Anspruchsgrundlage, Subsumtion und Ergebnis selbst bearbeiten. Teilnahme an weiteren Moodle-Tests einplanen.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
+    "id": "wri-klausur-march-2027",
+    "when": "15.–19.03.2027 · Klausur",
+    "task": "Wirtschaftsrecht-Klausur (90 Minuten) in derselben Woche wie Prozessleittechnik. Genauen Tag nachreichen; beide Fächer schrittweise ab Januar wiederholen. Bonuspunkte nur als unbestätigte Zusatzchance betrachten.",
+    "lecture": "Aktuelle Planung",
+    "chapter": "Organisation & Termine"
+  },
+  {
     "id": "wri26-plan-01",
     "when": "Heute · 15 Min.",
     "task": "Prüfungsform, Bonuspunkte und zulässige Gesetzesmarkierungen verstehen; keine unerlaubten Stichworte in Gesetzestexte eintragen.",
@@ -8,8 +22,8 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "wri26-plan-02",
-    "when": "Jede Vorlesung · 10 Min.",
-    "task": "Zum Ende der Präsenzveranstaltung auf den Moodle-Bonustest achten; er ist nur ungefähr 15 Minuten vor Ort offen. Ergebnisse prüfen.",
+    "when": "Weitere Präsenztermine",
+    "task": "Bisher etwa sechs Moodle-Bonustests durchgeführt; an drei teilgenommen, Bestehen derzeit nicht überprüfbar. Weitere etwa 15-minütige Präsenztests während der Vorlesung nutzen; Bonuspunkte nicht fest einkalkulieren.",
     "lecture": "Bonuspunkte",
     "chapter": "Bonuspunkte"
   },
@@ -78,8 +92,8 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "wri26-plan-12",
-    "when": "02.–03.12.2026",
-    "task": "Bonus-Fallblatt laut Übersicht 02.12. 14:00 bis 03.12. 14:00 Uhr: Zwei Fälle handschriftlich im Prüfungsstil lösen, rechtzeitig per Mail abgeben; mind. 50/100 Punkte für 3 Bonuspunkte.",
+    "when": "02.12. 14:00 – 03.12. 14:00",
+    "task": "Bonus-Fallblatt: zwei Fälle handschriftlich im Prüfungsstil, mindestens 50/100 Punkte für 3 Bonuspunkte. Möglichst am 02.12. fertig bearbeiten und absenden; am 03.12. ab 13 Uhr liegt das Energieeffizienz-Praktikum.",
     "lecture": "Bonuspunkte",
     "chapter": "Bonuspunkte"
   },
@@ -92,8 +106,8 @@ window.MODULE_DATA.plan=[
   },
   {
     "id": "wri26-plan-14",
-    "when": "19.01.2027",
-    "task": "Geplante letzte Vorlesung zur Klausurvorbereitung/Probeklausur; den echten Prüfungstermin separat aus Campusnet/Moodle übernehmen.",
+    "when": "19.01.2027 · Probeklausur",
+    "task": "Geplante Klausurvorbereitung/Probeklausur laut Semesterplan. Die echte Klausur ist erst in der Woche 15.–19.03.2027, genauer Tag noch offen.",
     "lecture": "Organisation",
     "chapter": "Organisation"
   }
